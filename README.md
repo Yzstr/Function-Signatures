@@ -11,7 +11,7 @@ import sha3
 function_signature=sha3.keccak_256(str(function_name).encode('utf-8')).hexdigest().lower()[:8]
 ```
 
-We collected 369412 function signatures for the query for function name.
+We collected 221725 function signatures for the query for function name.
 
 Credits to [ethereum-lists/4bytes](ethereum-lists/4bytes) and [4byte.dictionary](https://www.4byte.directory/).
 
