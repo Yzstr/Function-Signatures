@@ -1,5 +1,7 @@
-# Function Signatures
+# Function Signatures(Deprecated)
 A Signatures to Function Reverse Query Set for Eathereum Smart Contracts.
+
+*This repo is deprecated and [4byte.dictionary](https://www.4byte.directory/) API is hignly recommended.*
 
 ## Function Signature
 In Ethereum smart contracts, all the functions are compiled into bytecode with address indicated by function selector. The function selector needs **function signature** to get the address in EVM by mapping. Thus invoking between smart contracts only needs(or provides) function signature, without knowing the function difinition.
